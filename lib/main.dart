@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Firebase.initializeApp();
   WidgetsFlutterBinding.ensureInitialized();
     FirebaseFirestore.instance.collection('user').add({
-      'name':'lalji',
+      'name':'test',
     });
     super.initState();
   }
